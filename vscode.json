@@ -1,5 +1,9 @@
 {
-    "workbench.colorTheme": "Tokyo Night",
-    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
-    "editor.fontLigatures": true
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Cascadia Code', 'monospace'",
+    "editor.fontLigatures": true,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#0096ff",
+        "editor.selectionBackground": "#0096ff40"
+    }
 }

@@ -1,0 +1,31 @@
+/* Walker Liquid Crystal Style */
+
+#window {
+    background: rgba(15, 15, 20, 0.8);
+    border-radius: 16px;
+    border: 2px solid #00aaff;
+}
+
+#input {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px;
+    border: none;
+}
+
+#list {
+    background: transparent;
+}
+
+.item {
+    padding: 8px;
+    border-radius: 8px;
+    color: #cccccc;
+}
+
+.item.active {
+    background: linear-gradient(90deg, rgba(0, 170, 255, 0.5), rgba(0, 85, 255, 0.5));
+    color: #ffffff;
+}

@@ -1,0 +1,34 @@
+# Liquid Crystal Alacritty Theme
+
+[window]
+opacity = 0.85
+padding = { x = 10, y = 10 }
+decorations = "none"
+
+[font]
+size = 11.0
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+
+[colors.primary]
+background = "#0f0f14"
+foreground = "#c0c5ce"
+
+[colors.normal]
+black   = "#2b303b"
+red     = "#bf616a"
+green   = "#a3be8c"
+yellow  = "#ebcb8b"
+blue    = "#8fa1b3"
+magenta = "#b48ead"
+cyan    = "#96b5b4"
+white   = "#c0c5ce"
+
+[colors.bright]
+black   = "#65737e"
+red     = "#bf616a"
+green   = "#a3be8c"
+yellow  = "#ebcb8b"
+blue    = "#8fa1b3"
+magenta = "#b48ead"
+cyan    = "#96b5b4"
+white   = "#eff1f5"

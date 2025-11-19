@@ -1,0 +1,81 @@
+/* Liquid Crystal Waybar Style */
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "SF Pro Display", "Roboto", sans-serif;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(20, 20, 20, 0.6); /* Dark glass */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+    backdrop-filter: blur(10px);
+}
+
+#workspaces button {
+    padding: 0 10px;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+#workspaces button.active {
+    background: linear-gradient(135deg, #00aaff, #0055ff);
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#mpd {
+    padding: 0 10px;
+    margin: 4px 2px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+#clock {
+    background: transparent;
+    font-weight: bold;
+    border: none;
+}
+
+#battery.charging, #battery.plugged {
+    color: #ffffff;
+    background-color: #26A65B;
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f53c3c;
+    color: #ffffff;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

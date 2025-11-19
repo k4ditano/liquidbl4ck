@@ -1,4 +1,4 @@
-/* Liquid Crystal Theme - Walker Overrides */
+/* Liquid Crystal Theme - Walker styles */
 
 /* Color variables for GTK apps (NotNative, etc.) */
 @define-color base #1a1a22;
@@ -8,72 +8,26 @@
 @define-color foreground #ffffff;
 @define-color background #1a1a22;
 
-/* Custom styling for Liquid Crystal aesthetic */
+/* Minimal custom styling - only override what's necessary */
 * {
   font-family: "SF Pro Display", "Roboto", sans-serif;
   font-size: 14px;
 }
 
 .box-wrapper {
-  background: alpha(@base, 0.96);
-  padding: 16px;
-  border: 1px solid alpha(@border, 0.5);
   border-radius: 16px;
 }
 
 .search-container {
-  background: alpha(#000000, 0.3);
-  padding: 10px 14px;
   border-radius: 12px;
-  margin-bottom: 12px;
-  border: 1px solid alpha(@border, 0.3);
-}
-
-.input {
-  background: transparent;
-  padding: 4px 8px;
-}
-
-.input placeholder {
-  opacity: 0.4;
 }
 
 child:hover .item-box {
   background: alpha(@text, 0.08);
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 child:selected .item-box {
-  background: alpha(@selected-text, 0.4);
-  border-radius: 12px;
-}
-
-child:selected .item-box * {
-  color: @text;
-  font-weight: 500;
-}
-
-.item-box {
-  padding: 12px 24px;
-  border-radius: 12px;
-  transition: background 0.1s ease;
-}
-
-.item-text {
-  padding-left: 6px;
-}
-
-.item-subtext {
-  font-size: 11px;
-  color: alpha(@text, 0.5);
-  margin-top: 2px;
-  padding-left: 6px;
-}
-
-.keybind-hints {
-  background: alpha(#000000, 0.3);
-  padding: 8px 12px;
-  margin-top: 8px;
-  border-radius: 12px;
-  font-size: 11px;
+  background: alpha(@selected-text, 0.3);
+  border-radius: 10px;
 }

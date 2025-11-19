@@ -1,44 +1,44 @@
 # Liquid Bl4ck
 
-Un tema minimalista y elegante para Omarchy (Hyprland) inspirado en la estética Liquid Crystal de Apple con un enfoque oscuro y moderno.
+A sleek, minimalist theme for Omarchy (Hyprland) inspired by Apple's Liquid Crystal aesthetic with a dark, modern approach.
 
 ## Preview
 ![Preview](preview.png)
 
-## Instalación
+## Installation
 
-### Método Recomendado (Bash)
-Puedes instalar este tema directamente usando el comando `omarchy-theme-install` si tienes Omarchy instalado:
+### Recommended Method (Bash)
+You can install this theme directly using the `omarchy-theme-install` command if you have Omarchy installed:
 
 ```bash
-omarchy-theme-install https://github.com/k4ditano/liquid-bl4ck.git
+omarchy-theme-install https://github.com/k4ditano/liquidbl4ck.git
 ```
 
-### Instalación Manual
-Copia los archivos de configuración a sus respectivas ubicaciones en `~/.config/`.
+### Manual Installation
+Copy the configuration files to their respective locations in `~/.config/`.
 
 - `hyprland.conf` -> `~/.config/omarchy/current/hyprland.conf`
 - `waybar.css` -> `~/.config/omarchy/current/waybar.css`
 - `walker.css` -> `~/.config/omarchy/current/walker.css`
-- Y todos los demás archivos de configuración
+- And all other configuration files
 
-## Características
+## Features
 
-- **Hyprland:** Bordes redondeados (16px), desenfoque optimizado, sombras suaves y animaciones fluidas
-- **Waybar:** Barra estilo cristal oscuro con gradientes y efectos de profundidad
-- **Walker:** Launcher con bordes redondeados y efectos hover sutiles
-- **Terminal:** Temas para Alacritty, Kitty y Ghostty con esquema de colores oscuro
-- **Colores:** Base oscuro (#1a1a22), texto blanco (#ffffff), acento azul (#0096ff)
+- **Hyprland:** Rounded borders (16px), optimized blur, soft shadows and fluid animations
+- **Waybar:** Dark crystal glass-style bar with gradients and depth effects
+- **Walker:** Launcher with rounded borders and subtle hover effects
+- **Terminal:** Themes for Alacritty, Kitty and Ghostty with dark color scheme
+- **Colors:** Dark base (#1a1a22), white text (#ffffff), blue accent (#0096ff)
 
-## Requisitos
+## Requirements
 
 - Omarchy
 - Hyprland
 - Waybar
 - Walker
 - Terminal: Alacritty / Kitty / Ghostty
-- Fuentes: SF Pro Display (recomendada) o Roboto
+- Fonts: SF Pro Display (recommended) or Roboto
 
-## Créditos
+## Credits
 
-Tema creado por [k4ditano](https://github.com/k4ditano)
+Theme created by [k4ditano](https://github.com/k4ditano)
